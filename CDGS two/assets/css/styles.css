@@ -1,0 +1,70 @@
+/* styles.css */
+/*
+1.navbar
+2.jumbotron
+3.what we do
+4.about
+5.footer
+*/
+
+.modal{
+    position: fixed;
+}
+
+/* 1.navbar starts */
+.navbar li{
+    margin-right: 8px;
+}
+
+
+
+/* navbar ends */
+
+/*2.jumbotron starts*/
+.jumbotron{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    background-size: cover;
+    background-image: url('../images/home.jpg');
+    background-position: center;
+}
+/*jumbotron starts*/
+
+/* 3.what we do starts*/
+.section-content {
+    padding: 5rem 0;
+}
+/*jumbotron starts*/
+
+/* 4.what we do starts*/
+#about {
+    background: url('../images/GKhAck.jpg') center center no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+/*about starts*/
+
+/* 5.footer starts*/
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+#facbook{
+    margin: 10px;
+}
+#twitter{
+    margin: 10px;
+}
+/*footer starts*/
