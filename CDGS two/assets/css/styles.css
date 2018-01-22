@@ -6,6 +6,62 @@
 4.about
 5.footer
 */
+ 
+/* Stage */
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #6c6f73;
+}
+
+h1,h2,h3,h4,h5{
+    color: #333;
+}
+
+h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem
+}
+
+img{
+    max-width: 100%;
+}
+
+
+#stage{
+    background: url('../images/home.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption{
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stage-caption h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+
+/* Stage ends */
 
 .modal{
     position: fixed;
@@ -68,3 +124,20 @@
     margin: 10px;
 }
 /*footer starts*/
+
+/* contact-section starts */
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+#contact{
+    margin-bottom: 60px;
+}
+/*contact-section ends*/
