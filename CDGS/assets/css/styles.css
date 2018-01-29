@@ -35,9 +35,9 @@ img{
     max-width: 100%;
 }
 
-
+/* stage starts*/
 #stage{
-    background: url('../images/home.jpg') center center no-repeat;
+    background: url('../images/computer.jpg') center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
@@ -47,7 +47,7 @@ img{
 }
 
 #stage-caption{
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 200;
     max-width: 60rem;
     margin: 0 auto;
@@ -130,6 +130,7 @@ img{
     color: #36A0FF;
     font-size: 27px;
     padding: 10px;
+    padding-top: 30px;
 }
 
 .bigicon {
@@ -139,5 +140,28 @@ img{
 
 #contact{
     margin-bottom: 60px;
+    padding-left: 100px;
 }
 /*contact-section ends*/
+
+/* feature content starts */
+
+
+#feature-content{
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
+
+.feature-dark{
+  background: #262F36;
+  color: white;
+}
+
+.feature-dark h2{
+  color: white;
+}
+
+
+
+/* feature content ends */
