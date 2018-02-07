@@ -92,6 +92,7 @@ img{
 /* 3.what we do starts*/
 .section-content {
     padding: 5rem 0;
+    align-items: center
 }
 /*jumbotron starts*/
 
@@ -161,7 +162,5 @@ img{
 .feature-dark h2{
   color: white;
 }
-
-
 
 /* feature content ends */
