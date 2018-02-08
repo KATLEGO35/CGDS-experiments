@@ -1,0 +1,166 @@
+/* styles.css */
+/*
+1.navbar
+2.jumbotron
+3.what we do
+4.about
+5.footer
+*/
+ 
+/* Stage */
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #6c6f73;
+}
+
+h1,h2,h3,h4,h5{
+    color: #333;
+}
+
+h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem
+}
+
+img{
+    max-width: 100%;
+}
+
+/* stage starts*/
+#stage{
+    background: url('../images/computer.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption{
+    font-size: 1rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stage-caption h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+
+/* Stage ends */
+
+.modal{
+    position: fixed;
+}
+
+/* 1.navbar starts */
+.navbar li{
+    margin-right: 8px;
+}
+
+
+
+/* navbar ends */
+
+/*2.jumbotron starts*/
+.jumbotron{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    background-size: cover;
+    background-image: url('../images/home.jpg');
+    background-position: center;
+}
+/*jumbotron starts*/
+
+/* 3.what we do starts*/
+.section-content {
+    padding: 5rem 0;
+    align-items: center
+}
+/*jumbotron starts*/
+
+/* 4.what we do starts*/
+#about {
+    background: url('../images/GKhAck.jpg') center center no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+/*about starts*/
+
+/* 5.footer starts*/
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+#facbook{
+    margin: 10px;
+}
+#twitter{
+    margin: 10px;
+}
+/*footer starts*/
+
+/* contact-section starts */
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+#contact{
+    margin-bottom: 60px;
+    padding-left: 100px;
+}
+/*contact-section ends*/
+
+/* feature content starts */
+
+
+#feature-content{
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
+
+.feature-dark{
+  background: #262F36;
+  color: white;
+}
+
+.feature-dark h2{
+  color: white;
+}
+
+/* feature content ends */
