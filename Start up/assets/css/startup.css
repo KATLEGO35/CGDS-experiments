@@ -63,12 +63,12 @@ img{
     text-transform: uppercase
 }
 
-#feature-content{
+.feature-content{
   padding: 8rem 0;
   overflow: hidden;
 }
 
-#feature-content img{
+.feature-content img{
   margin-bottom: -8rem;
 }
 
@@ -81,7 +81,17 @@ img{
   color: white;
 }
 
+.feature-alt{
+  background: #f0f0f0;
+}
 
+#feature-four .feature-content{
+  padding: 0;
+}
+
+#feature-five img{
+  margin-top: 2rem;
+}
 /* Media queries */
 
 @media screen and ( min-width: 991px ) {
